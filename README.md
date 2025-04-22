@@ -1,14 +1,7 @@
-# Fundamentals of Algorithms - Assignment 1 S1 2023
+# Fundamentals of Algorithms
 
-## Attribution
-
-* Assignment Designed and Programmed by Jackson Goerner.
-* Multiple points of valuable feedback and checking provided by Lifi Huang.
-* Game Idea originated from [Chicory: A Colorful Tale](https://chicorygame.com/).
-
-## Group Members
-
-- Michael Di Giantomasso (mdig0003@student.monash.edu)
+## Description
+This project is a simple implementation of MS Paint using Python. It creates a dynamic canvas where users can draw freely, with each pixel updated in real-time. The core functionality involves direct pixel manipulation to render brush strokes. Extended features like **Undo** and **Redo** allow users to step forward or back through their drawing history, enhancing usability for more complex illustrations.
 
 ## Setup
 
@@ -62,8 +55,3 @@ python -m visuals.complex
 python -m visuals.styles
 ```
 
-To run the unit tests:
-
-```bash
-python run_tests.py
-```
